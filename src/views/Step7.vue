@@ -1,8 +1,0 @@
-<script setup>
-</script>
-
-<template>
-  <div class="container">
-    <h1>#7</h1>
-  </div>
-</template>

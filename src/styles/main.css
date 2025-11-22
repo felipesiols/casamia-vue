@@ -1,5 +1,3 @@
-@import './base.css';
-
 .fs-01 { font-size: 0.1em !important; }
 .fs-02 { font-size: 0.2em !important; }
 .fs-03 { font-size: 0.3em !important; }
@@ -43,18 +41,20 @@
 .fs-70 { font-size: 7.0em !important; }
 .fs-80 { font-size: 8.0em !important; }
 .fs-90 { font-size: 9.0em !important; }
-.fw-1 { font-weight: 100 !important; }
-.fw-2 { font-weight: 200 !important; }
-.fw-3 { font-weight: 300 !important; }
-.fw-4 { font-weight: 400 !important; }
-.fw-5 { font-weight: 500 !important; }
-.fw-6 { font-weight: 600 !important; }
-.fw-7 { font-weight: 700 !important; }
-.fw-8 { font-weight: 800 !important; }
-.fw-9 { font-weight: 900 !important; }
-.fl-10 { line-height: 1.0 !important; }
-.fl-11 { line-height: 1.1 !important; }
-.fl-12 { line-height: 1.2 !important; }
-.fl-13 { line-height: 1.3 !important; }
-.fl-14 { line-height: 1.4 !important; }
-.fl-15 { line-height: 1.5 !important; }
+
+
+.nino1 {
+  background-image: url('../assets/nino1.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-color: gray;
+}
+
+.robotx {
+  background-image: url('../assets/robot3.png');
+  background-repeat: no-repeat;
+  background-position-x: 110px;
+  background-size: 50%;
+  background-color: #B3EED2;
+  min-height: 190px;
+}
